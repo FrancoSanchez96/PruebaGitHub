@@ -1,0 +1,80 @@
+.box {
+    border-radius: 6px;
+    height: 40px;
+    width: 80px;
+    margin: 50px auto;
+}
+
+.box1 {
+    background-color: cadetblue;
+}
+
+.box2 {
+    background-color: orangered;
+    transition: all 2s;
+}
+
+.box:hover{
+    transform: scale(4);
+}
+
+.circle0, .circle1, .circle2, .circle3,.circle4{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.circle0{
+    background-color: mediumpurple;
+    transition: all 2s linear;
+}
+
+.circle1{
+    background-color: mediumseagreen;
+    transition: all 2s ease-in;
+}
+
+.circle2{
+    background-color: mediumvioletred;
+    transition: all 2s ease-out;
+}
+
+.circle3{
+    background-color: navy;
+    transition: all 2s ease-in-out;
+}
+
+.circle4{
+    background-color: olive;
+    transition: all 2s ease;
+}
+
+.container-circle:hover .circle0,
+.container-circle:hover .circle1,
+.container-circle:hover .circle2,
+.container-circle:hover .circle3,
+.container-circle:hover .circle4{
+    transform: translate(200px);
+
+}
+
+.square1, .square2 {
+    border-radius: 4px;
+    height: 150px;
+    width: 150px;
+    margin: 100px;
+    position: absolute;
+}
+.square1{
+    background-color: teal;
+}
+
+.square2{
+    background-color: steelblue;
+    transition: all 0.8s;
+
+}
+.square2:hover {
+    transform: translate(1px, 20px);
+}
